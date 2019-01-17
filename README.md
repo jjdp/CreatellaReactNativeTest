@@ -6,7 +6,7 @@ Screenshots
 ----
 iOS           |  Android
 :-------------------------:|:-------------------------:
-![](https://gyazo.com/00ddacae2128c232fa99601ed110c801.gif) |  ![](https://gyazo.com/0b24cd17742d7896da38252759534d52.gif)
+![](https://gyazo.com/278d553b8c3ce8763bb30fa2cd69045d.gif) |  ![](https://gyazo.com/8c76c21384d30c5054900444340fa658.gif)
 
 Features
 ----
