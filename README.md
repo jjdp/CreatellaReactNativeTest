@@ -24,3 +24,4 @@ Notes
 - json-server is now npm json-server or yarn json-server
 - react native bundle is npm start or yarn start
 - Previous README contents moved to TestInstructions.md
+- Ads sample size is low because of the server code which can't be changed as instructed
