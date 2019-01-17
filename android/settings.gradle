@@ -1,0 +1,3 @@
+rootProject.name = 'CreatellaReactNativeTest'
+
+include ':app'
