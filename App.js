@@ -114,7 +114,6 @@ export default class App extends Component {
         this.setState({ onEndReached: true });
       })
       .catch(error => {
-        console.log(error);
         //ignored. api won't fail anyway
       });
   };
@@ -123,13 +122,15 @@ export default class App extends Component {
     this.setState({ onEndReached: true });
   };
 
+  /* face fontSize is not the same as the api as it will be scaled later
+     on using PixelRatio or some scaler depending on the device
+  */
   _renderItem = ({ item, index }) => {
     return (
       <View style={styles.item}>
         <Text style={styles.face}>{item.face}</Text>
         <Text style={styles.price}>${item.price}</Text>
         <Text style={styles.date}>{formatDate(item.date)}</Text>
-
         {index != 0 && index % 20 === 0 ? (
           <Image
             style={styles.ad2}
