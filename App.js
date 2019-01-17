@@ -131,7 +131,7 @@ export default class App extends Component {
         <Text style={styles.face}>{item.face}</Text>
         <Text style={styles.price}>${item.price}</Text>
         <Text style={styles.date}>{formatDate(item.date)}</Text>
-        {index != 0 && index % 20 === 0 ? (
+        {(index + 1) % 20 === 0 ? (
           <Image
             style={styles.ad2}
             resizeMode="contain"
