@@ -8,6 +8,15 @@ iOS           |  Android
 :-------------------------:|:-------------------------:
 ![](https://gyazo.com/00ddacae2128c232fa99601ed110c801.gif) |  ![](https://gyazo.com/0b24cd17742d7896da38252759534d52.gif)
 
+Features
+----
+- added all the features from the instructions
+
+Build
+----
+- react-native run-android for android
+- react-native run-ios for iOS
+
 Notes
 ----
 - tested on iPhone X 12.1 and Nexus 5X Android 8.1
