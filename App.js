@@ -204,7 +204,10 @@ export default class App extends Component {
           ListFooterComponent={this._renderListFooter}
           onEndReached={this._onEndReached}
           onEndReachedThreshold={0.1}
-          extraData={this.state.onEndReached}
+          extraData={{
+            onEndReached: this.state.onEndReached,
+            noData: this.state.noData
+          }}
         />
       </SafeAreaView>
     );
